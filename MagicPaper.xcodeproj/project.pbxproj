@@ -11,8 +11,10 @@
 		43401F1A230F0F2B008120A0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 43401F19230F0F2B008120A0 /* art.scnassets */; };
 		43401F1C230F0F2B008120A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43401F1B230F0F2B008120A0 /* ViewController.swift */; };
 		43401F1F230F0F2B008120A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43401F1D230F0F2B008120A0 /* Main.storyboard */; };
-		43401F21230F0F2E008120A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43401F20230F0F2E008120A0 /* Assets.xcassets */; };
 		43401F24230F0F2E008120A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43401F22230F0F2E008120A0 /* LaunchScreen.storyboard */; };
+		43401F2F230F0FA9008120A0 /* fifa18.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 43401F2C230F0FA8008120A0 /* fifa18.mp4 */; };
+		43401F34230F3B19008120A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43401F33230F3B19008120A0 /* Assets.xcassets */; };
+		43401F38230F42FA008120A0 /* fifa18final.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 43401F37230F42FA008120A0 /* fifa18final.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +23,11 @@
 		43401F19230F0F2B008120A0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		43401F1B230F0F2B008120A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43401F1E230F0F2B008120A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		43401F20230F0F2E008120A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43401F23230F0F2E008120A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43401F25230F0F2E008120A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43401F2C230F0FA8008120A0 /* fifa18.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fifa18.mp4; sourceTree = "<group>"; };
+		43401F33230F3B19008120A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43401F37230F42FA008120A0 /* fifa18final.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fifa18final.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +60,13 @@
 		43401F16230F0F2B008120A0 /* MagicPaper */ = {
 			isa = PBXGroup;
 			children = (
+				43401F33230F3B19008120A0 /* Assets.xcassets */,
+				43401F37230F42FA008120A0 /* fifa18final.mp4 */,
+				43401F2C230F0FA8008120A0 /* fifa18.mp4 */,
 				43401F17230F0F2B008120A0 /* AppDelegate.swift */,
 				43401F19230F0F2B008120A0 /* art.scnassets */,
 				43401F1B230F0F2B008120A0 /* ViewController.swift */,
 				43401F1D230F0F2B008120A0 /* Main.storyboard */,
-				43401F20230F0F2E008120A0 /* Assets.xcassets */,
 				43401F22230F0F2E008120A0 /* LaunchScreen.storyboard */,
 				43401F25230F0F2E008120A0 /* Info.plist */,
 			);
@@ -125,10 +131,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43401F2F230F0FA9008120A0 /* fifa18.mp4 in Resources */,
 				43401F1A230F0F2B008120A0 /* art.scnassets in Resources */,
 				43401F24230F0F2E008120A0 /* LaunchScreen.storyboard in Resources */,
-				43401F21230F0F2E008120A0 /* Assets.xcassets in Resources */,
 				43401F1F230F0F2B008120A0 /* Main.storyboard in Resources */,
+				43401F34230F3B19008120A0 /* Assets.xcassets in Resources */,
+				43401F38230F42FA008120A0 /* fifa18final.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
